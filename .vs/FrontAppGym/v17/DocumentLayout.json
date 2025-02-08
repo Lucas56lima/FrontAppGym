@@ -1,0 +1,145 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lucas\\OneDrive\\Documentos\\FrontAppGym\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4FC3D5D9-51DA-45FA-B43E-D28C0E7FF7D3}|FrontAppGym\\FrontAppGym.csproj|c:\\users\\lucas\\onedrive\\documentos\\frontappgym\\frontappgym\\workoutpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4FC3D5D9-51DA-45FA-B43E-D28C0E7FF7D3}|FrontAppGym\\FrontAppGym.csproj|solutionrelative:frontappgym\\workoutpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FC3D5D9-51DA-45FA-B43E-D28C0E7FF7D3}|FrontAppGym\\FrontAppGym.csproj|c:\\users\\lucas\\onedrive\\documentos\\frontappgym\\frontappgym\\workoutpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FC3D5D9-51DA-45FA-B43E-D28C0E7FF7D3}|FrontAppGym\\FrontAppGym.csproj|solutionrelative:frontappgym\\workoutpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FC3D5D9-51DA-45FA-B43E-D28C0E7FF7D3}|FrontAppGym\\FrontAppGym.csproj|c:\\users\\lucas\\onedrive\\documentos\\frontappgym\\frontappgym\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FC3D5D9-51DA-45FA-B43E-D28C0E7FF7D3}|FrontAppGym\\FrontAppGym.csproj|solutionrelative:frontappgym\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FC3D5D9-51DA-45FA-B43E-D28C0E7FF7D3}|FrontAppGym\\FrontAppGym.csproj|c:\\users\\lucas\\onedrive\\documentos\\frontappgym\\frontappgym\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FC3D5D9-51DA-45FA-B43E-D28C0E7FF7D3}|FrontAppGym\\FrontAppGym.csproj|solutionrelative:frontappgym\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FC3D5D9-51DA-45FA-B43E-D28C0E7FF7D3}|FrontAppGym\\FrontAppGym.csproj|c:\\users\\lucas\\onedrive\\documentos\\frontappgym\\frontappgym\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4FC3D5D9-51DA-45FA-B43E-D28C0E7FF7D3}|FrontAppGym\\FrontAppGym.csproj|solutionrelative:frontappgym\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FC3D5D9-51DA-45FA-B43E-D28C0E7FF7D3}|FrontAppGym\\FrontAppGym.csproj|c:\\users\\lucas\\onedrive\\documentos\\frontappgym\\frontappgym\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4FC3D5D9-51DA-45FA-B43E-D28C0E7FF7D3}|FrontAppGym\\FrontAppGym.csproj|solutionrelative:frontappgym\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FC3D5D9-51DA-45FA-B43E-D28C0E7FF7D3}|FrontAppGym\\FrontAppGym.csproj|c:\\users\\lucas\\onedrive\\documentos\\frontappgym\\frontappgym\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4FC3D5D9-51DA-45FA-B43E-D28C0E7FF7D3}|FrontAppGym\\FrontAppGym.csproj|solutionrelative:frontappgym\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WorkoutPage.xaml",
+              "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\Documentos\\FrontAppGym\\FrontAppGym\\WorkoutPage.xaml",
+              "RelativeDocumentMoniker": "FrontAppGym\\WorkoutPage.xaml",
+              "ToolTip": "C:\\Users\\lucas\\OneDrive\\Documentos\\FrontAppGym\\FrontAppGym\\WorkoutPage.xaml",
+              "RelativeToolTip": "FrontAppGym\\WorkoutPage.xaml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAUwEkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-08T00:12:48.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WorkoutPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\Documentos\\FrontAppGym\\FrontAppGym\\WorkoutPage.xaml.cs",
+              "RelativeDocumentMoniker": "FrontAppGym\\WorkoutPage.xaml.cs",
+              "ToolTip": "C:\\Users\\lucas\\OneDrive\\Documentos\\FrontAppGym\\FrontAppGym\\WorkoutPage.xaml.cs",
+              "RelativeToolTip": "FrontAppGym\\WorkoutPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T22:45:29.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\Documentos\\FrontAppGym\\FrontAppGym\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "FrontAppGym\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\lucas\\OneDrive\\Documentos\\FrontAppGym\\FrontAppGym\\MainPage.xaml.cs",
+              "RelativeToolTip": "FrontAppGym\\MainPage.xaml.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAAAHIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T23:17:36.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\Documentos\\FrontAppGym\\FrontAppGym\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "FrontAppGym\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\lucas\\OneDrive\\Documentos\\FrontAppGym\\FrontAppGym\\MauiProgram.cs",
+              "RelativeToolTip": "FrontAppGym\\MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T18:51:52.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\Documentos\\FrontAppGym\\FrontAppGym\\AppShell.xaml",
+              "RelativeDocumentMoniker": "FrontAppGym\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\lucas\\OneDrive\\Documentos\\FrontAppGym\\FrontAppGym\\AppShell.xaml",
+              "RelativeToolTip": "FrontAppGym\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-29T17:48:50.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\Documentos\\FrontAppGym\\FrontAppGym\\App.xaml",
+              "RelativeDocumentMoniker": "FrontAppGym\\App.xaml",
+              "ToolTip": "C:\\Users\\lucas\\OneDrive\\Documentos\\FrontAppGym\\FrontAppGym\\App.xaml",
+              "RelativeToolTip": "FrontAppGym\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-29T17:48:47.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\Documentos\\FrontAppGym\\FrontAppGym\\MainPage.xaml",
+              "RelativeDocumentMoniker": "FrontAppGym\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\lucas\\OneDrive\\Documentos\\FrontAppGym\\FrontAppGym\\MainPage.xaml",
+              "RelativeToolTip": "FrontAppGym\\MainPage.xaml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACsAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-29T17:35:23.759Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FrontAppGym.WorkoutPage"
+             BackgroundColor="#1C1C1C">
+
+    <Grid RowDefinitions="Auto, Auto, *">
+
+        <!-- Header -->
+        <StackLayout Padding="20" BackgroundColor="#E91E63">
+            <Label Text="Treino Personalizado"
+                   FontSize="22"
+                   TextColor="White"
+                   FontAttributes="Bold"/>          
+                    
+        </StackLayout>
+
+        <!-- Botão de Início -->
+        <StackLayout Padding="20" Grid.Row="1">
+            <Button Text="INICIAR TREINO"
+                    BackgroundColor="#27AE60"
+                    TextColor="White"
+                    FontSize="18"
+                    CornerRadius="10"/>
+            <Label Text="Aperte INICIAR para começar seu treino."
+                   FontSize="14"
+                   TextColor="Gray"
+                   HorizontalTextAlignment="Center"/>
+        </StackLayout>
+
+        <!-- Lista de Treinos em Cards -->
+        <ScrollView Grid.Row="2">
+            <VerticalStackLayout Padding="10" Spacing="10">
+
+                <!-- Exemplo de Card -->
+                <Frame BackgroundColor="White"
+                       CornerRadius="15"
+                       Padding="15"
+                       HasShadow="True">
+                    <Grid ColumnDefinitions="*, Auto">
+                        <StackLayout>
+                            <Label Text="🔥 Supino Reto" FontSize="18" FontAttributes="Bold"/>
+                            <Label Text="📌 Carga: 10kg" FontSize="14" TextColor="Gray"/>
+                        </StackLayout>
+                        <Button Text="▶️" 
+                                FontSize="20"
+                                WidthRequest="40"
+                                HeightRequest="40"
+                                BackgroundColor="Transparent"
+                               />
+                    </Grid>
+                </Frame>
+
+                <Border BackgroundColor="Transparent"
+        StrokeShape="RoundRectangle 20" 
+        Padding="10" Margin="2">
+                    <Grid ColumnDefinitions="*, Auto">
+
+                        <!-- Texto do Exercício -->
+                        <StackLayout>
+                            <Label Text="🔥 Tríceps Testa" FontSize="18" FontAttributes="Bold" Margin="10"/>
+                            <Label Text="📌 Carga: Considerável" FontSize="14" TextColor="Wheat" Margin="10"/>
+                            <Label Text="📌 Repetições: 8 a 10 reps" FontSize="14" TextColor="Wheat" Margin="10"/>
+                        </StackLayout>
+
+                        <!-- Ícone Play + GIF -->
+                        <Grid RowDefinitions="Auto, Auto">
+
+                            <!-- Botão Play -->
+                            <Button Text="▶️" 
+                    FontSize="20"
+                    WidthRequest="40"
+                    HeightRequest="40"
+                    BackgroundColor="Transparent"
+                    Grid.Row="0"/>
+
+                            <!-- GIF de Animação -->
+                            <Image Source="triceps.gif"                  
+                                   Grid.Row="1"
+                                   Margin="10"      
+                                   HorizontalOptions="End"
+                                   VerticalOptions="End"/>
+                        </Grid>
+                    </Grid>
+                </Border>
+
+            </VerticalStackLayout>
+        </ScrollView>
+
+   
+    </Grid>
+</ContentPage>

@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FrontAppGym.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout>
+            <StackLayout Padding="5">
+                <Border BackgroundColor="#363636" Padding="5">
+                    <StackLayout>
+                        <Border StrokeShape="RoundRectangle 50" Padding="10" BackgroundColor="#E91E63" HorizontalOptions="Center">
+                            <Grid>
+                                <!-- Imagem do perfil -->
+                                <Image x:Name="ProfileImage" Source="profile.png" HeightRequest="100" WidthRequest="100" />
+                            </Grid>
+                        </Border>
+                        <Label x:Name="InitialLabel" FontSize="24" TextColor="White" HorizontalOptions="Center" Padding="30" />
+                        <Border BackgroundColor="#E91E63" StrokeShape="RoundRectangle 20" Padding="10" Margin="10" VerticalOptions="End">
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Spacing="20">
+                                <Button Text="Progresso" FontSize="18" BackgroundColor="#E91E63" TextColor="White" />
+                                <Button Text="Metas" FontSize="18" BackgroundColor="#E91E63" TextColor="White"/>
+                            </StackLayout>
+                        </Border>
+                    </StackLayout>
+                </Border>
+                <Border BackgroundColor="#1C1C1C" Padding="5">
+                    <StackLayout>
+                        <Border x:Name="BorderButtons" BackgroundColor="#E91E63" StrokeShape="RoundRectangle 20" Padding="10" Margin="10" VerticalOptions="End" IsVisible="True">
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Spacing="20">
+                                <Button Text="Treinos" BackgroundColor="#E91E63" TextColor="White" Clicked="OnWorkoutButtonClicked" />
+                                <Button Text="Histórico" BackgroundColor="#E91E63" TextColor="White" Clicked="OnHistoryButtonClicked" />
+                                <Button Text="Perfil" BackgroundColor="#E91E63" TextColor="White"  />
+                            </StackLayout>
+                        </Border>
+                        <Border x:Name="ProgressBorder" BackgroundColor="#1E1E1E" StrokeShape="RoundRectangle 20" Padding="5" IsVisible="False">
+                            <StackLayout>
+                                <Label Text="Progresso" FontSize="18" TextColor="White" />
+                                <BoxView HeightRequest="100" BackgroundColor="#E91E63" />
+                            </StackLayout>
+                        </Border>
+                        <Border x:Name="BorderWorkout" 
+                                BackgroundColor="Transparent" 
+                                StrokeShape="RoundRectangle 20" 
+                                Padding="2" Margin="2"
+                                VerticalOptions="End" 
+                                IsVisible="True">
+                            <Grid ColumnDefinitions="Auto,*,Auto" 
+                                  RowDefinitions="Auto,Auto,Auto,Auto"
+                                  VerticalOptions="Start">
+
+                                <!-- Botão de Imagem -->
+                                <ImageButton Source="gym.jpg"                        
+                                             BackgroundColor="#E91E63"
+                                             HorizontalOptions="Start"
+                                             Opacity="0.8"
+                                             CornerRadius="80" 
+                                             Grid.Column="0"
+                                             Grid.Row="0"/>
+
+                                <!-- Texto no centro -->
+                                <Label Text="Hipertrofia" 
+                                       TextColor="White" 
+                                       FontSize="Small" 
+                                       Grid.Column="1" 
+                                       Grid.Row="0"
+                                       HorizontalOptions="Center" 
+                                       VerticalOptions="Center"/>
+
+                                <!-- Botão com a seta para baixo -->
+                                <ImageButton x:Name="ImageButtonArrow" 
+                                             Source="arrow_down.png"
+                                             HeightRequest="30"                                             
+                                             WidthRequest="30"
+                                             BackgroundColor="Transparent"
+                                             Clicked="OnArrowDownClicked"
+                                             HorizontalOptions="End"
+                                             VerticalOptions="Center"
+                                             Grid.Column="2"
+                                             Grid.Row="0"/>
+
+                                <!-- Label que aparece abaixo -->
+                                <Label x:Name="LabelOrientation" 
+                                       IsVisible="False" 
+                                       Text="Orientações" 
+                                       Grid.ColumnSpan="3" 
+                                       Grid.Row="1"
+                                       Padding="20"
+                                       VerticalOptions="Start" 
+                                       HorizontalOptions="Start"/>
+
+                                <!-- Linha separadora -->
+                                <VerticalStackLayout x:Name="WorkoutContainer" 
+                                                     IsVisible="False"
+                                                     Spacing="5"
+                                                     Grid.ColumnSpan="3"
+                                                     Grid.Row="2"
+                                                     Padding="10"
+                                                     VerticalOptions="Fill"
+                                                     HorizontalOptions="Fill"/>
+
+
+                            </Grid>
+                        </Border>
+
+
+                    </StackLayout >
+                </Border>
+            </StackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

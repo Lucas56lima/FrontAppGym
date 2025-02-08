@@ -1,0 +1,1 @@
+C:\Users\lucas\OneDrive\Documentos\FrontAppGym\FrontAppGym\FrontAppGym.csproj;x64
