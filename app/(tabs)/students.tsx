@@ -13,7 +13,7 @@ export default function StudentsScreen() {
 }
   const navigateToProfile = () => {
     // Aqui você pode definir o caminho da tela de destino
-    router.push('/workouts'); // Navega para a página de perfil
+    router.push('/modals/workouts'); // Navega para a página de perfil
   }
   return (
     
